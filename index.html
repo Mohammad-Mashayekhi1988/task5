@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMOL1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <section class="section">
+                <div class="header-top">
+                    <div class="header-top_right">
+                        <img src="image/logo.png" alt="">
+                    </div>
+                    <div class="header-top_left">
+                        <img class="img-insta" src="./image/هینستا.png" alt="">
+                        <p class="paragraph-header-top_left">به اینستاگرام ما بپیوندید</p>
+                        <h1>FORMOL1@</h1>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                        <a class="link-header-bottom" href="#">خانه
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQlJREFUSEvtldENgjAQhn9kEXzsCH2DTXQBZQPjBgQHYBR5Y4Q+yiKAKVLAo8DVBBMT+wa5+7+7P3eth42Pt7E+2IAiVgEqZG1BPo4yESWnOBagF/cQdqIldog4kFUAETdVBwBYkEUAFZep2Lf/atwBsCCzAJu48dwFYgUsibtCJgCOuAvkDeAizoX0ADqKMhWrE0YgD9sID4CzytDgYJJcADqnOKmmX7wGubyJSH9/D9C321ViOihiFaLCBcMWv0Ib5PBxlYnIxx3QzqdTRAEnpb3VSzU9IyuMRZ8AWm9pIhX8A37LovmpWX/CSn2lj8Nsl12Iun0a7aM5ByF7YcLY98168faIzQFPh03zGREiRc4AAAAASUVORK5CYII="/>
+                        </a>
+                        <a class="link-header-bottom" href="#">مشاهیر
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT9JREFUSEvdldsNgjAUhv8yiT52hD4Jm+gAGjdQN/AygDiJvDECj7KIVlpoudijBUNiJCEkcDjff65lGPliI/sHCUiX2RUMoaeAXBz51GVLA1aZ9HSuzcSRO33Zl5Ri6kcDT91CbEQ1gFA8EGAjegEYh0aZL4D6758Api0DTMWe51+myFHkGhCJPU+GANJlNgfDGQyxOPCF6rRmm5YfJRJx4tFAQDmcEgtx4nEbsM4meOBW9fe2eKobqFJGDZ2dA4YYEvPu0LWmz4bY9BZAp8wF8LF/Ge9URSKxMWoAOPeMtnvgCmCibIrUJGC4dMXQu6gNygtHcZGui47kjlDXS11VzagUvl3XWuVdd4V7q35w3ioyWcQSEiLArJk2SOxMp7zbur0OHN/WbQJ/A0DsfPKQ6R3B6IA+R2fXtlcNhoCe5tjUGTFmSQMAAAAASUVORK5CYII="/>
+                        </a>
+                        <a class="link-header-bottom" href="#">موتوراسپرت
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXJJREFUSEvVlD12gzAQhEe+Q1LjLjqCqtgnsX0AE6q0tttUBB8g+CR2Kh1B6UKd3AEFiT8BQjz8oAgVz8Izu7PfimDmh8ysD6cBD8QWKXnTRSzkKwtpPLYgt4H/9QPIh1yU/LLo6fGfGcwd0dg4bN8PUsT34gqCFYCERXQ51nTYwBeyEl1gyUKajDGxGvBAeAA8FtKb0YFVl0XUWWTnkPvikCkdIXFjZ7qe1IC/iA9IbHWpEjt2pnFlmNd/zCo+3RURD8QKKa751mKt4lGvjd+Lru4zKKsniNk73ZUi0xn44lsNFi1S9MBTqLO+x4lvNeQsa42jjQq+F2oum2IfukYOfGuDcqGM/Ieyrghz/MfsIMezNYO2SdENWoT10lUb1FknkDgpgY54TZrOvQLAQVdj0Qzm1XUQZ7h+6m3OhZ91h8Y+2ABoz7BpkHexMYRsY2jE0VhOCyT9d5HEASm88iYtOrpMctkN0TPmfPC6HiNm+/YP6mHDGe6V2MgAAAAASUVORK5CYII="/>
+                        </a>
+                        <a class="link-header-bottom" href="#">خودرو
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASZJREFUSEvdlDFSwzAQRb/DReIOH0Gdc5KQlgzGNyC5QcYMtDmK3ekIShefxMKykCPJTrKMEAVqtbtP/++uEkQ+SeT6+KcAXoocEmtIPJEslGjwgA07ZK0fP7GIl2KJDmdSYTeoxQIrHzIFFOKtz9tBomHv2YoC4i+iRoJc5bEq29s5cwA5BOjXNCSAsrRDDaBlVZZeBVj2TALvgXghlK1LLJDaNjkKuLFnRupdwKs4fg+FY9MIGCZHyww9qtlqogZ7LwAjMbS8yrcGxAYMze2nIGi7e5udOrMAXpw+APkMJJ+setzeEuXHEgH6FRRFpqCJJQIiKwjp8y0FelF+54yLGmMPnG/G32Ryc32hfrPN/Z8DdB9+8FWbl46fnZcbtLWUeYgO+AJBPbgZwIEOBwAAAABJRU5ErkJggg=="/>
+                        </a>
+                        <a class="link-header-bottom" href="#">موتو جی پی
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAWxJREFUSEvNlDFSwzAQRb/CGaA2HTqCOuckmAPEpKJlaKmMOYBzk7jTEUSHajgDFpEsOVJwIjmDZ+LKI+3s+/t3VwQzf2Tm/LhcAF+LAh15NQ4s1BOr6GbMjbMr4OXHF6Cu+6Tkm9V3N5cN4GuR4QcNCDIssASQ/5tFXvLc2iA1hFVUxqYw2oOR5C5nEiQOWIktCJxyndypzsx/pJKTAL4SBQgazwbJanprquqwBaAhwcdqGuScAjDJXTYDUXiGQuETpgFCpVE7ztqDAzsmQwKLDsqWu+a2IHgxypznBBv2Rh/00bF4f3wHgFX6OVKmUW0h+t5v9NF4B9kDHkVjGqbQ4gpGod3cXJ+xd7rkpVD6WDeSJ8SbV2qYilJoNeYZYBVtBws67FX7gIT4FEBuve9VxwFBfAhwG9tbpBsrB4tsYwNAQnwI6Gc+2rRg0RLi/45ph/ud+n47CVo3kmNLZCfvZHz0sYs9x7H72QG/tJ72GX2XATEAAAAASUVORK5CYII="/>
+                        </a>
+                        <a class="link-header-bottom" href="#">فرمول یک
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAJFJREFUSEtjZKAxYKSx+QwYFhzPu/4fZKnlJE2qWD5wFmANuv8MBxiYGRItJ2g+IDZocfqAgAENDEwMC4mxiFwLcNqPHnejFmAE1WgQEUz+gyeIsJVFx/Ovz2f4z+DAwMCggMsrRPsAV2F3vOC6A8M/hvm4LKHYAoKRgKZg4ErToV8fDF0fkJpKCKmnSsWOzxIAEAtfGe21IxMAAAAASUVORK5CYII="/>
+                        </a>
+
+                        <a class="link-header-bottom" href="#">فروشگاه
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASJJREFUSEvNlb0VgjAUhW+cRDszQjrYBFs9IhuIGyAebWUT7TJC7HQSEVRiRJKAgEfaJO+79/1B0PNHeo6P3wG4L9KnmwuAhMV01YU76UABPOIO4LKIHttCPlLE58IDwR4pjmxD3e4BgRjiinNXLiqLzBcid+C1UH9hMR3l76sBqovvKGZAHpPPxQEEDlJM2IYmdTiK87DoQu0cyGIDUo0NIjtxgBGLaN7u+kHjDYstBREkbE0nhRjjJGeKltnFEKVHVU50KTUDXi6saSrSk+X+LaZ1F0llgCxc2YHJqR0QCAdXHGwF1g2mFXBv2aIWJopmtdQC1FKvuVQLwP3TFkinANmxeDxTY5nOjHPwHkT+K1DuEnXNl88aAHp20HsN/hpwA+snjxkUfurmAAAAAElFTkSuQmCC"/>
+                        </a>
+                        <a class="link-header-bottom" href="#">    تماس
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbVJREFUSEu1lct1gzAQRZ/sRvCSElgFVxJTQJx0gN1BYhcAqSRkRQksQyOEaISEPkh8zom1xNLcmTfzxgwPPuzB8fGvgPqtidAhTe5xqRKfAOSlQlzYI0ve43ZNleM7hhQ9MgWxANalIWqLHY4upD43eXKLrwrsvGuTW3yYVOBekhciH4QDev77hSBzwSnGWAFlRY8oIGUgHv7iC8AEIgH0/oIeKUgW+c6V0wRQVuBZ6W8mpEeV3OMj3TEAKp4liwkxAT8i2x0OSvNQ+R6AkMs3DD4ANbUSmb42BXqc3PI9ACGXD6IBKpgxYvW5mVQVkEglP4FowEtzAgNlrLXWFQQlWPKI7QMnY2uSjN4sBfU2WZY+jCpDmXzEmfXNMd1ax0+drGd/lGXsxeCcEgyf6JDL+Q863jLaaHttOFgjO/SDDEXGG+d/zvFewIIstMiepXsrknHO8UGAhAwjSscYXV+DLYgxhbMAx2gEqbDHVZnQBK3apqHRk0uQ3KyqqXhzK77Gv8WmpdOhCC28Vf9oIsMeuafJZl7ehbcK4MiR8jX+JBtNVUWmb1wlNgO2uHixyVuD+e7/AerdFijl1dCkAAAAAElFTkSuQmCC"/>
+                        </a>
+
+                        <a class="link-header-bottom" href="#">ثبت نام
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXpJREFUSEvNVclxgzAUfcKFBB9Vgk6xK4kpwEsHwR0QuwDoBHxSCTqaFBITfSF5gLAznolmuDBf/y1/EcOLD3txfvwPAHlSGzzwDgYfBTZGdYEcDBk83ETEsy4nBhXIvUp1ojJpd5YEDGcR8bwZ0gkgT8rXrFMAvr0UosA3VnBsSc2HVUQxuVazbYL0KpAH9WkSrBC0sSNgQ+QHsVX5B2TQorFdJg/qbtWG4sLP7t4kAFJUvVwFr1laWmWsnApQdHlt7CJLgZA+R2QOAOVqLaht51TXLRNXvq0p0OjEbsqhlkyalrk8+r8h/1QwA4CGLRBXnjhWtg5U7Fxc+HpuDZxF1Lq1Ce61aIw3RmXF3+ad5UU+qlh88aCNTMUewMPaDeakLupT+dxZDEmVRP+qOKoYD/hTVoUr7uAkty47DzfTIRHP5V7twPBmB6uz8IMWSVJRYNfbBA1bqrGDAHZjlg8ObVZ6dGiFMyTm0Vn64Ixp376YUQqWgLwc4BeeWbgZYEMixwAAAABJRU5ErkJggg=="/>
+                        </a>
+                        <a class="link-header-bottom" href="#">ورود
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAJJJREFUSEtjZKAxYKSx+QxEW3C84HoCwz/GLrCDmP6XWU7QXECM44i3IO/GKwaG/6IQQxlfW07SEBtiFtA6iIgJDmxqCMbB8dzr+xkYGRywWsDIsMByomYiPssJW5B3/T8+AywnaeI1Y9QChtEgYjhO61QES6LoFhEKe5g+gsl01ILRICJYihMdRARNwqGA5hYAAL8gVxnHGS1kAAAAAElFTkSuQmCC"/>
+                        </a>
+                        <a class="link-header-bottom" href="#">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAW5JREFUSEvVlMGBgjAQRT/YCB5TQk6LlawUoGsHSgeuFoCdwI0Scly2kDXLJARBSMiiHpYLB0jezJ8/P8CLn+DF98MKKLdiD4kYAWIAVf0uIFHxE0v/UtQAUO5EjCsyAJHlogohEn5khQ+oB2guz9VBiQILpHRRuRMRflQn701HQIiVD6QP2IovVXmAC/9kyViFSjrgQLLxE1tOddEC2oMSBT+zletguRF508lhaiY3wIfI6iGuIZHwM7s4AXpOOck4VUy3Ay1PiCU/smoCEOEK+n9SplkAgteSSnrXEjl36QYwunq4o9yINQJkLjMYBboAfchD13lDJq/T4PSCWd1RGjN46E9d2BeN4kEixQJmY2nZ9u2iOXala5CxqOh2MmYmchjZWC0bFeGy9agD2mgI8aYCT0eHCjyzWJ050FerpLPjupdbus9RyGxAswsml4yUA8hDAB/Iw4AB5C7LngJoIRLf9456GsAWjv8f8AtwjrUZ/Kj8HAAAAABJRU5ErkJggg=="/>
+                        </a>
+                </div>
+            </section>
+        </nav>
+    </header>
+    <main>
+        <main class="main-top">
+            <div class="main-top_one">
+                <div class="main-top_one_right" >
+                    <img class="img" src="image/1.jfif" alt="">
+                    <a class="main-top_one_right_link" href="#">همه برای یکی , یکی برای همه</a>
+                </div>
+                <div class="main-top_one_left">
+                    <img  class="img"  src="image/2.jfif" alt="">
+                    <a class="main-top_one_left_link" href="#">مسابقه فرمول یک عربستان 2023 ؛ رستگاری چکو پرز</a>
+                    <img class="img"  src="image/3.jfif" alt="">
+                </div>
+            </div>
+            <div class="main-top_two">
+                <div class="main-top_two_right">
+                    <img class="img"  src="image/4.jfif" alt="">
+                    <a class="main-top_two_right_link" href="#">فصل 5 مستند فرمول 1 رانندگی برای بقا + زیر نویس</a>
+                    <img class="img"  src="image/5.jfif" alt="">
+
+                </div>
+                <div class="main-top_two_left">
+                    <img class="img"  src="image/6.jfif" alt="">
+                </div>
+            </div>
+
+        </main>
+        <main class="bottom">
+            <div class="container">
+                <div class="container-right">
+                    <h2 class="container-right_tittle">آخرین خبرهای فرمول یک</h2>
+                    <div class="container-right_link">
+                        <a class="container-right_link1" href="#">آرشیو</a>
+                    </div>
+                    <hr>
+                    <br>
+                    <div class="container-right_img">
+                        <img src="image/0.PNG" alt="">
+                    </div>
+                    <h2 class="container-right_tittle">بارش باران در تمرین دوم فرمول یک استرالیا 2023</h2>
+                    <div class="container-right_news">
+                        <div class="container-right_news_right">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAJJJREFUSEtjZKAxYKSx+QxEW3C84HoCwz/GLrCDmP6XWU7QXECM44i3IO/GKwaG/6IQQxlfW07SEBtiFtA6iIgJDmxqCMbB8dzr+xkYGRywWsDIsMByomYiPssJW5B3/T8+AywnaeI1Y9QChtEgYjhO61QES6LoFhEKe5g+gsl01ILRICJYihMdRARNwqGA5hYAAL8gVxnHGS1kAAAAAElFTkSuQmCC"/>
+                            <p style="color: #fff;font-weight: bold;">سیدعلی حسینی</p>
+                            <p style="color: #fff;margin-right: 1rem;font-weight: bold;"> آخرین خبرها,استرالیا</p>
+                        </div>
+                        <div class="text">
+                            با توجه به اینکه در مرحله دوم تمرینی فرمول یک استرالیا تنها 20 دقیقه پیست خشک بود، فرناندو آلونسو توانست با ثبت زمانی به ... <a style="text-decoration: none;color: #807e7e;" href="#">ادامه...</a>
+                        </div>
+                    </div>
+                    <div class="image-news1">
+                        <img class="image-news" src="image/1.jpg" alt="">
+                        <p style="color: #fff;font-weight: bold;font-size: 18px;margin:3rem 1rem 0 0;">جیمز کی اخراج و تغییرات ساختاری جدید در مکلارن اعمال شد</p>
+                    </div>
+                    <div class="image-news1">
+                        <img class="image-news" src="image/2.jpeg" alt="">
+                        <p style="color: #fff;font-weight: bold;font-size: 18px;margin:3rem 1rem 0 0;">بروزرسانی مرسدس اواسط ماه می از راه می رسد</p>
+                    </div>
+                    <div class="image-news1">
+                        <img class="image-news" src="image/3.jpg" alt="">
+                        <p style="color: #fff;font-weight: bold;font-size: 18px;margin:3rem 1rem 0 0;">مرسدس در مورد عدم استفاده از دستور تیمی توضیح داد</p>
+                    </div>
+                    <div class="image-news1">
+                        <img class="image-news" src="image/4.jpg" alt="">
+                        <p style="color: #fff;font-weight: bold;font-size: 18px;margin:3rem 1rem 0 0;">دنیل ریکاردو حتی نمی داند که چرا عملکردش افت داشت</p>
+                    </div>
+                    <div class="image-news1">
+                        <img class="image-news" src="image/5.jpg" alt="">
+                        <p style="color: #fff;font-weight: bold;font-size: 18px;margin:3rem 1rem 0 0;">آیا فراری می تواند که از ردبول در این فصل سبقت بگیرد؟</p>
+                    </div>
+                </div>
+                <div class="container-between">
+                    <h2 class="container-between_tittle">ایستگاه تحلیل</h2>
+                    <div class="container-between_link">
+                        <a class="container-between_link1" href="#">آرشیو</a>
+                    </div>
+                    <hr>
+                    <br>
+                    <div class="container-between_img">
+                        <img src="image/00.PNG" alt="">
+                    </div>
+                    <span style="color: #4d4d4d;font-size: 25px;font-weight: bold;">مروری بر عملکرد خارق العاده سرجیو پرز در پیست های خیابانی</span>
+                    <div class="news">
+                        <div class="news_between">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAJJJREFUSEtjZKAxYKSx+QxEW3C84HoCwz/GLrCDmP6XWU7QXECM44i3IO/GKwaG/6IQQxlfW07SEBtiFtA6iIgJDmxqCMbB8dzr+xkYGRywWsDIsMByomYiPssJW5B3/T8+AywnaeI1Y9QChtEgYjhO61QES6LoFhEKe5g+gsl01ILRICJYihMdRARNwqGA5hYAAL8gVxnHGS1kAAAAAElFTkSuQmCC"/>
+                            <p >سیدعلی حسینی</p>
+                        </div>
+                        <p style="color: #676767;font-weight: bold;"> آخرین خبرها,استرالیا</p>
+                    </div>
+                    <p style="font-weight: bold;text-align: center;line-height: 25px;">سرجیو پرز یکی از رانندگان خیلی خوب در پیست های خیابانی است، در این مقاله سعی داریم که چرایی این موضوع را بیشتر دریابیم.... <a style="text-decoration: none;" href="#">ادامه...</a></p>
+                    <div class="image-news1">
+                        <img class="image-news" src="image/6.jpg" alt="">
+                        <p style="color: #4d4d4d;font-weight: bold;font-size: 18px;margin:3rem 1rem 0 0;">جیمز کی اخراج و تغییرات ساختاری جدید در مکلارن اعمال شد</p>
+                    </div>
+                    <div class="image-news1">
+                        <img class="image-news" src="image/7.jpg" alt="">
+                        <p style="color: #4d4d4d;font-weight: bold;font-size: 18px;margin:3rem 1rem 0 0;">بروزرسانی مرسدس اواسط ماه می از راه می رسد</p>
+                    </div>
+                    <div class="image-news1">
+                        <img class="image-news" src="image/8.jpg" alt="">
+                        <p style="color: #4d4d4d;font-weight: bold;font-size: 18px;margin:3rem 1rem 0 0;">مرسدس در مورد عدم استفاده از دستور تیمی توضیح داد</p>
+                    </div>
+                    <div class="image-news1">
+                        <img class="image-news" src="image/9.jpg" alt="">
+                        <p style="color: #4d4d4d;font-weight: bold;font-size: 18px;margin:3rem 1rem 0 0;">دنیل ریکاردو حتی نمی داند که چرا عملکردش افت داشت</p>
+                    </div>
+                    <div class="image-news1">
+                        <img class="image-news" src="image/10.jpg" alt="">
+                        <p style="color: #4d4d4d;font-weight: bold;font-size: 18px;margin:3rem 1rem 0 0;">آیا فراری می تواند که از ردبول در این فصل سبقت بگیرد؟</p>
+                    </div>
+                </div>
+                <div class="containet-left">
+                    <div class="container-left_social">
+                        <h2 class="container-left_social_tittle">ما را در شبکه های اجتماعی دنبال کنید</h2>
+                        <div class="container-left_social_imgage">
+                            <a class="container-left_social_link" href="#"><img class="container-left_social_img" src="image/social/0.PNG" alt=""></a>
+                            <a class="container-left_social_link" href="#"><img class="container-left_social_img" src="image/social/1.PNG" alt=""></a>
+                            <a class="container-left_social_link" href="#"><img class="container-left_social_img" src="image/social/2.PNG" alt=""></a>
+                            <a class="container-left_social_link" href="#"><img class="container-left_social_img" src="image/social/3.PNG" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="User-panel">پنل کاربری</div>
+                    <div class="User-panel_input">
+                        <div class="User-panel_input1">
+                            <div><label style="font-size: 1.2rem;font-weight:bold ;" for="text">نام کاربری</label></div>
+                            <input style="width: 100%;background-color: #eceaea;border: none;height: 2.5rem;" type="text">
+                        </div>
+                        <div class="User-panel_input1">
+                            <div><label style="font-size: 1.2rem;font-weight:bold ;"  for="text">پسورد </label> </div>
+                            <input style="width: 100%;background-color: #eceaea;border: none;height: 2.5rem;" type="text">
+                        </div>
+                    </div>
+                    <div>
+                        <label  style="font-size: 1.2rem;font-weight:bold ;" for="text">مرا بخاطر بسپار</label>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="User-panel">رده بندی تیم ها</div>
+                    <table class="table">
+                        <tr style="font-size: 2rem;text-align: center;background-color: #4d4d4d;">
+                            <td>pos</td>
+                            <td >تیم</td>
+                            <td>امتیاز</td>
+                        </tr>
+                        <tr class="table_row">
+                            <td class="table_number">1</td>
+                            <td class="table_column">Redbull racing</td>
+                            <td class="table_number">88</td>
+                        </tr>
+                        <tr class="table_row">
+                            <td class="table_number">2</td>
+                            <td class="table_column">Aston martin</td>
+                            <td class="table_number">95</td>
+                        </tr>    
+                        <tr class="table_row">
+                            <td class="table_number">3</td>
+                            <td class="table_column">Mercedes</td>
+                            <td class="table_number">81</td>
+                        </tr>
+                        <tr class="table_row">
+                            <td class="table_number">4</td>
+                            <td class="table_column">Ferari</td>
+                            <td class="table_number">65</td>
+                        </tr>
+                        <tr class="table_row">
+                            <td class="table_number">5</td>
+                            <td class="table_column">Alpine</td>
+                            <td class="table_number">98</td>
+                        </tr>
+                        <tr class="table_row">
+                            <td class="table_number">6</td>
+                            <td class="table_column">Alfa tauri</td>
+                            <td class="table_number">98</td>
+                        </tr>                        <tr class="table_row">
+                            <td class="table_number">7</td>
+                            <td class="table_column">Hass</td>
+                            <td class="table_number">98</td>
+                        </tr>                        <tr class="table_row">
+                            <td class="table_number">8</td>
+                            <td class="table_column">Alfa romeo</td>
+                            <td class="table_number">98</td>
+                        </tr>                        <tr class="table_row">
+                            <td class="table_number">9</td>
+                            <td class="table_column">williams</td>
+                            <td class="table_number">98</td>
+                        </tr>                        <tr class="table_row">
+                            <td class="table_number">10</td>
+                            <td class="table_column">Mac laren</td>
+                            <td class="table_number">98</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <a style="text-decoration: none;" href="#">
+                <div class="social_bottom">
+                    <img style="border-radius: 100%;" src="image/social/telegram.PNG" alt="">
+                    <p style="font-size: 26px;">ما را در تلگرام دنبال کنید</p>
+                    <p style="font-size: 26px;">FORMOL1@</p>
+                </div>
+
+            </a>
+        </main>
+
+    </main>
+    <footer class="footer">
+        <div class="container-footer">
+            <p style="font-size: 28px;color: #fff;font-weight: bold;">تمام حقوق مادی و معنوی محتواهای این رسانه متعلق به گروه موتوراسپورت و فرمول یک ایران میباشد.</p>
+            <img style="margin-right: 2rem;" src="image/100.PNG" alt="">
+        </div>
+        <p style="font-size: 20px;color: #fff;font-weight: bold;margin-bottom: 2rem;">حق نشر © 2015 – 2022 فرمول یک ایران</p>
+        <nav class="nav-footer">
+            <a href="#" class="nav-footer_link">ثبت نام</a>
+            <a href="#" class="nav-footer_link">توییت</a>
+            <a href="#" class="nav-footer_link">خبر</a>
+            <a href="#" class="nav-footer_link">عکس</a>
+            <a href="#" class="nav-footer_link">ویدیو</a>
+            <a href="#" class="nav-footer_link">قیمت خودرو</a>
+            <a href="#" class="nav-footer_link">قوانین</a>
+            <a href="#" class="nav-footer_link">تماس با ما</a>
+        </nav>
+
+    </footer>
+</body>
+</html>
